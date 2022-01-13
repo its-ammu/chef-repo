@@ -1,0 +1,44 @@
+{
+  "name": "php",
+  "description": "Installs and maintains php and php modules",
+  "long_description": "",
+  "maintainer": "Sous Chefs",
+  "maintainer_email": "help@sous-chefs.org",
+  "license": "Apache-2.0",
+  "platforms": {
+    "amazon": ">= 2.0",
+    "centos": ">= 7.0",
+    "debian": ">= 9.0",
+    "oracle": ">= 7.0",
+    "redhat": ">= 7.0",
+    "scientific": ">= 7.0",
+    "ubuntu": ">= 18.04"
+  },
+  "dependencies": {
+    "ondrej_ppa_ubuntu": ">= 0.0.0",
+    "yum-epel": ">= 0.0.0",
+    "yum-remi-chef": ">= 5.0.1"
+  },
+  "providing": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "9.1.0",
+  "source_url": "https://github.com/sous-chefs/php",
+  "issues_url": "https://github.com/sous-chefs/php/issues",
+  "privacy": false,
+  "chef_versions": [
+    [
+      ">= 15.3"
+    ]
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ],
+  "eager_load_libraries": true
+}
